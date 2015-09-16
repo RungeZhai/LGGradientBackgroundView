@@ -29,8 +29,8 @@ typedef enum : NSUInteger {
 
 /* Both points are
  * defined in a unit coordinate space that is then mapped to the
- * layer's bounds rectangle when drawn. (I.e. [0,0] is the bottom-left
- * corner of the layer, [1,1] is the top-right corner.) */
+ * view's bounds rectangle when drawn. (I.e. [0,0] is the top-left
+ * corner of the view, [1,1] is the bottom-right corner.) */
 @property (nonatomic) IBInspectable CGPoint inputPoint0;
 @property (nonatomic) IBInspectable CGPoint inputPoint1;
 

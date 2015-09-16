@@ -20,6 +20,9 @@
 @implementation LGGradientBackgroundView
 
 - (void)layoutSubviews {
+    
+    [super layoutSubviews];
+    
     if (_implementMethod == LGGradientBGViewImplementMethodCAGradientLayer) {
         if (!CGRectEqualToRect(self.bounds, _previousRect)) {
             _previousRect = self.bounds;
